@@ -1,10 +1,10 @@
 .sideBar {
     background-color: white;
-    width: 356px;
+    width: 20%
 }
 
 .logo {
-    padding: 40px 70px;
+    padding: 40px 50px;
     border-bottom: 3px solid #E7EFFF;
 }
 
@@ -13,9 +13,9 @@
     background-color: #0D62FF;
     border-radius: 5px;
     box-shadow: 0px 2.3267974853515625px 4.653594970703125px 0px #8A92A64D;
-    width: 294px;
+    width: 265px;
     height: 46.5px;
-    margin: 29.3px 26.67px 17.34px 34.9px;
+    margin: 29.3px 10.67px;
 }
 
 .dashBoardText {
