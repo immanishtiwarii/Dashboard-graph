@@ -1,5 +1,9 @@
 import React from 'react'
 import "./SideBar.css"
+import category from "../../img/Category.png"
+import game from "../../img/Game.png"
+import Ticket from "../../img/TicketStar.png"
+import Location from "../../img/Location.png"
 
 const SideBar = () => {
   return (
@@ -10,7 +14,7 @@ const SideBar = () => {
 
       <div className='dashBoardTextDiv'>
         <div className='dashBoardText'>
-          <img src="../assests/icons/Category.png" className='icon' alt="" />
+          <img src={category} className='icon' alt="" />
           <p >DashBoard</p>
         </div>
       </div>
@@ -18,23 +22,23 @@ const SideBar = () => {
       <div className='otherOption'>
         <ul>
           <li>
-            <img src="../assests/icons/game.png" className='icon' alt="" />
+            <img src={game} className='icon' alt="" />
             <p>trainings</p>
           </li>
           <li>
-            <img src="../assests/icons/TicketStar.png" className='icon' alt="" />
+            <img src={Ticket} className='icon' alt="" />
             <p>users</p>
           </li>
           <li>
-            <img src="../assests/icons/location.png" className='iconLocation' alt="" />
+            <img src={Location} className='iconLocation' alt="" />
             <p>analytics</p>
           </li>
           <li>
-            <img src="../assests/icons/location.png" className='iconLocation' alt="" />
+            <img src={Location} className='iconLocation' alt="" />
             <p>my account</p>
           </li>
           <li>
-            <img src="../assests/icons/location.png" className='iconLocation' alt="" />
+            <img src={Location} className='iconLocation' alt="" />
             <p>support</p>
           </li>
 
